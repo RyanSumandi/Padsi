@@ -25,8 +25,8 @@
                                 <div class="invalid-feedback">
                                     <?= session('msg') ?>
                                 </div>
-                                <div class="d-grip gap-2">
-                                </div>
+                                  <div class="d-grip gap-2">
+                                </div>  
                                 <div class="mt-4 mb-0">
                                     <div class="d-grid">
                                         <button type="submit" class="btn btn-primary btn-block">Login</button>
