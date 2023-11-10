@@ -1,0 +1,280 @@
+ERROR - 2023-05-21 03:34:11 --> Unknown column 'us.id' in 'field list'
+CRITICAL - 2023-05-21 03:34:11 --> Unknown column 'us.id' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:34:35 --> Unknown column 'us.id' in 'field list'
+CRITICAL - 2023-05-21 03:34:35 --> Unknown column 'us.id' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:39:05 --> Unknown column 'us.id' in 'field list'
+CRITICAL - 2023-05-21 03:39:05 --> Unknown column 'us.id' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:39:43 --> Unknown column 'us.id' in 'field list'
+CRITICAL - 2023-05-21 03:39:43 --> Unknown column 'us.id' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:46:13 --> Unknown column 'user.id' in 'field list'
+CRITICAL - 2023-05-21 03:46:13 --> Unknown column 'user.id' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:46:55 --> Unknown column 's.us.id' in 'field list'
+CRITICAL - 2023-05-21 03:46:55 --> Unknown column 's.us.id' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:47:04 --> Unknown column 'us.id' in 'field list'
+CRITICAL - 2023-05-21 03:47:04 --> Unknown column 'us.id' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:47:11 --> Unknown column 'us.id' in 'field list'
+CRITICAL - 2023-05-21 03:47:11 --> Unknown column 'us.id' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:47:32 --> Unknown column 'us.firstname' in 'field list'
+CRITICAL - 2023-05-21 03:47:32 --> Unknown column 'us.firstname' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:48:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`, `user_id`.`firstname`, `user_id`.`lastname`, `us`.`username`, `c`.`cus...' at line 1
+CRITICAL - 2023-05-21 03:48:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`, `user_id`.`firstname`, `user_id`.`lastname`, `us`.`username`, `c`.`cus...' at line 1
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:48:16 --> Unknown column 'us.id' in 'field list'
+CRITICAL - 2023-05-21 03:48:16 --> Unknown column 'us.id' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:51:28 --> Not unique table/alias: 's'
+CRITICAL - 2023-05-21 03:51:28 --> Not unique table/alias: 's'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:51:39 --> Not unique table/alias: 's'
+CRITICAL - 2023-05-21 03:51:39 --> Not unique table/alias: 's'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:51:43 --> Unknown column 'us.username' in 'field list'
+CRITICAL - 2023-05-21 03:51:43 --> Unknown column 'us.username' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:52:05 --> Unknown column 'us.id' in 'field list'
+CRITICAL - 2023-05-21 03:52:05 --> Unknown column 'us.id' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:52:50 --> Unknown column 'p.id' in 'field list'
+CRITICAL - 2023-05-21 03:52:50 --> Unknown column 'p.id' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:53:55 --> Table 'tokobuku.users' doesn't exist
+CRITICAL - 2023-05-21 03:53:55 --> Table 'tokobuku.users' doesn't exist
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:54:00 --> Table 'tokobuku.users' doesn't exist
+CRITICAL - 2023-05-21 03:54:00 --> Table 'tokobuku.users' doesn't exist
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:54:09 --> Table 'tokobuku.users' doesn't exist
+CRITICAL - 2023-05-21 03:54:09 --> Table 'tokobuku.users' doesn't exist
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-21 03:54:13 --> Unknown column 'us.username' in 'field list'
+CRITICAL - 2023-05-21 03:54:13 --> Unknown column 'us.username' in 'field list'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `s`.`sal...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`sal...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`sal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`sal...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\app\Models\SaleModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\app\Controllers\Penjualan.php(181): App\Models\SaleModel->getReport()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->report()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

@@ -1,0 +1,28 @@
+CRITICAL - 2023-05-11 07:05:58 --> Invalid file: pembelian/modal-supplier.php
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pembelian/modal...')
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('pembelian/modal...', NULL, true)
+#2 C:\xampp\htdocs\tokobuku\app\Views\pembelian\list.php(79): CodeIgniter\View\View->include('pembelian/modal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pembelian/list', Array, true)
+#6 C:\xampp\htdocs\tokobuku\app\Controllers\Pembelian.php(28): view('pembelian/list', Array)
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pembelian->index()
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-11 07:06:43 --> Invalid file: pembelian/modal-supplier.php
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pembelian/modal...')
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('pembelian/modal...', NULL, true)
+#2 C:\xampp\htdocs\tokobuku\app\Views\pembelian\list.php(79): CodeIgniter\View\View->include('pembelian/modal...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pembelian/list', Array, true)
+#6 C:\xampp\htdocs\tokobuku\app\Controllers\Pembelian.php(28): view('pembelian/list', Array)
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pembelian->index()
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}

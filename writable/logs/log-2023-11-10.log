@@ -1,0 +1,726 @@
+ERROR - 2023-11-10 00:51:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-11-10 00:51:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#2 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#4 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#5 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-11-10 00:51:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-11-10 00:51:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#2 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#4 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#5 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-11-10 00:51:33 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 00:51:33 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:51:33 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 00:51:33 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:51:38 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 00:51:38 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:51:38 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 00:51:38 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:51:38 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 00:51:38 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:51:38 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 00:51:38 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:58:04 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 00:58:04 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:58:04 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 00:58:04 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:58:04 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 00:58:04 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:58:04 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 00:58:04 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:58:29 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 00:58:29 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:58:29 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 00:58:29 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:58:29 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 00:58:29 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:58:30 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 00:58:30 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:59:35 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 00:59:35 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:59:35 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 00:59:35 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:59:36 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 00:59:36 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 00:59:36 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 00:59:36 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:00:46 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 01:00:46 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:00:46 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 01:00:46 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:00:46 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 01:00:46 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:00:46 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 01:00:46 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:01:20 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 01:01:20 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:01:20 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 01:01:20 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:01:20 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 01:01:20 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:01:21 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 01:01:21 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:01:28 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 01:01:28 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:01:28 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 01:01:28 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:01:28 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 01:01:28 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:01:28 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 01:01:28 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:02:02 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 01:02:02 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:02:02 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 01:02:02 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:02:02 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 01:02:02 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:02:03 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 01:02:03 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:02:13 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 01:02:13 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:02:14 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 01:02:14 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:02:14 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 01:02:14 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:02:14 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 01:02:14 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:03:04 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 01:03:04 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:03:04 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 01:03:04 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:03:04 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 01:03:04 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:03:04 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 01:03:04 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:05:23 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 01:05:23 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:05:23 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 01:05:23 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:05:23 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 01:05:23 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:05:23 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 01:05:23 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:06:26 --> Table 'robopetshop.sale_detail' doesn't exist
+CRITICAL - 2023-11-10 01:06:26 --> Table 'robopetshop.sale_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(s....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(s....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(s....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(s....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(33): App\Models\BerandaModel->reportTransaksi('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartTransaksi()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:06:27 --> Table 'robopetshop.buy_detail' doesn't exist
+CRITICAL - 2023-11-10 01:06:27 --> Table 'robopetshop.buy_detail' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(b....', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(b....')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(b....')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(b....', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(45): App\Models\BerandaModel->reportPembelian('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartPembelian()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:06:27 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-11-10 01:06:27 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(56): App\Models\BerandaModel->reportCustomer('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartCustomer()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-11-10 01:06:27 --> Table 'robopetshop.supplier' doesn't exist
+CRITICAL - 2023-11-10 01:06:27 --> Table 'robopetshop.supplier' doesn't exist
+#0 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MONTH(cr...', 0)
+#1 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MONTH(cr...')
+#2 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MONTH(cr...')
+#3 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MONTH(cr...', Array, false)
+#4 C:\xampp\htdocs\robopetshop\app\Models\BerandaModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\robopetshop\app\Controllers\Home.php(67): App\Models\BerandaModel->reportSupplier('2023')
+#6 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->showChartSupplier()
+#7 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\robopetshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\robopetshop\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

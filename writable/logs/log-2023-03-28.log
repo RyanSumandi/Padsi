@@ -1,0 +1,175 @@
+ERROR - 2023-03-28 03:21:01 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-03-28 03:21:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokobuku\app\Models\KomikModel.php(27): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\tokobuku\app\Controllers\Komik.php(20): App\Models\KomikModel->getKomik()
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Komik->index()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-28 03:21:02 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Komik), true)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-28 03:38:45 --> Class 'App\Models\CategoryModelKomik' not found
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Komik->__construct()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-03-28 03:41:29 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-03-28 03:41:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokobuku\app\Models\KomikModel.php(28): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\tokobuku\app\Controllers\Komik.php(22): App\Models\KomikModel->getKomik()
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Komik->index()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-28 03:41:29 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Komik), true)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-28 03:41:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-03-28 03:41:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokobuku\app\Models\KomikModel.php(28): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\tokobuku\app\Controllers\Komik.php(22): App\Models\KomikModel->getKomik()
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Komik->index()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-28 03:41:33 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Komik), true)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-28 03:52:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-03-28 03:52:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokobuku\app\Models\KomikModel.php(28): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\tokobuku\app\Controllers\Komik.php(22): App\Models\KomikModel->getKomik()
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Komik->index()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-28 03:52:14 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Komik), true)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-28 03:59:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-03-28 03:59:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokobuku\app\Models\KomikModel.php(28): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\tokobuku\app\Controllers\Komik.php(22): App\Models\KomikModel->getKomik()
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Komik->index()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-28 03:59:50 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Komik), true)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-28 03:59:55 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-03-28 03:59:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokobuku\app\Models\KomikModel.php(28): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\tokobuku\app\Controllers\Komik.php(22): App\Models\KomikModel->getKomik()
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Komik->index()
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-28 03:59:55 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\tokobuku\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Komik), true)
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

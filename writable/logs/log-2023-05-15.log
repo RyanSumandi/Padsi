@@ -1,0 +1,398 @@
+CRITICAL - 2023-05-15 07:09:18 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:09:20 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:09:43 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:09:44 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:09:44 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:09:45 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:09:45 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:11:30 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:11:31 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:11:58 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:11:59 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:12:00 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:12:02 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:12:02 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:12:22 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:12:23 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:12:24 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:13:27 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:13:28 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:15:16 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:15:18 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:16:27 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:16:28 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:16:31 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:17:16 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:17:18 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:42:17 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:42:52 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 07:47:20 --> Undefined variable: dataBuku
+#0 C:\xampp\htdocs\tokobuku\app\Views\pembelian\modal-produk.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('pembelian/modal...', NULL, true)
+#4 C:\xampp\htdocs\tokobuku\app\Views\pembelian\list.php(83): CodeIgniter\View\View->include('pembelian/modal...')
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pembelian/list', Array, true)
+#8 C:\xampp\htdocs\tokobuku\app\Controllers\Pembelian.php(30): view('pembelian/list', Array)
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pembelian->index()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#11 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2023-05-15 07:50:13 --> Unknown column 'supplier.deleted_at' in 'where clause'
+CRITICAL - 2023-05-15 07:50:13 --> Unknown column 'supplier.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tokobuku\app\Controllers\Pembelian.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pembelian->index()
+#8 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-15 07:51:56 --> Undefined variable: dataBuku
+#0 C:\xampp\htdocs\tokobuku\app\Views\pembelian\modal-produk.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('pembelian/modal...', NULL, true)
+#4 C:\xampp\htdocs\tokobuku\app\Views\pembelian\list.php(83): CodeIgniter\View\View->include('pembelian/modal...')
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pembelian/list', Array, true)
+#8 C:\xampp\htdocs\tokobuku\app\Controllers\Pembelian.php(30): view('pembelian/list', Array)
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pembelian->index()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#11 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-05-15 07:54:25 --> Undefined variable: dataCust
+#0 C:\xampp\htdocs\tokobuku\app\Views\pembelian\modal-supplier.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('pembelian/modal...', NULL, true)
+#4 C:\xampp\htdocs\tokobuku\app\Views\pembelian\list.php(84): CodeIgniter\View\View->include('pembelian/modal...')
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pembelian/list', Array, true)
+#8 C:\xampp\htdocs\tokobuku\app\Controllers\Pembelian.php(30): view('pembelian/list', Array)
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pembelian->index()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#11 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-05-15 07:56:25 --> Undefined variable: dataSupp
+#0 C:\xampp\htdocs\tokobuku\app\Views\pembelian\modal-supplier.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('pembelian/modal...', NULL, true)
+#4 C:\xampp\htdocs\tokobuku\app\Views\pembelian\list.php(84): CodeIgniter\View\View->include('pembelian/modal...')
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pembelian/list', Array, true)
+#8 C:\xampp\htdocs\tokobuku\app\Controllers\Pembelian.php(30): view('pembelian/list', Array)
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pembelian->index()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#11 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-05-15 08:36:51 --> Cannot declare class App\Controllers\Pembelian, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-15 08:37:18 --> Cannot declare class App\Controllers\Pembelian, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-15 08:38:52 --> Cannot declare class App\Controllers\Pembelian, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-15 08:38:58 --> Cannot declare class App\Controllers\Pembelian, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-15 08:41:02 --> Undefined variable: dataKomik
+#0 C:\xampp\htdocs\tokobuku\app\Views\pembelian\modal-produk.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('pembelian/modal...', NULL, true)
+#4 C:\xampp\htdocs\tokobuku\app\Views\pembelian\list.php(85): CodeIgniter\View\View->include('pembelian/modal...')
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pembelian/list', Array, true)
+#8 C:\xampp\htdocs\tokobuku\app\Controllers\Pembelian.php(27): view('pembelian/list', Array)
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pembelian->index()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#11 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-05-15 08:41:33 --> Undefined variable: dataKomik
+#0 C:\xampp\htdocs\tokobuku\app\Views\pembelian\modal-produk.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('pembelian/modal...', NULL, true)
+#4 C:\xampp\htdocs\tokobuku\app\Views\pembelian\list.php(85): CodeIgniter\View\View->include('pembelian/modal...')
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pembelian/list', Array, true)
+#8 C:\xampp\htdocs\tokobuku\app\Controllers\Pembelian.php(27): view('pembelian/list', Array)
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pembelian->index()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#11 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-05-15 08:42:18 --> Undefined variable: dataBook
+#0 C:\xampp\htdocs\tokobuku\app\Views\pembelian\modal-produk.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('pembelian/modal...', NULL, true)
+#4 C:\xampp\htdocs\tokobuku\app\Views\pembelian\list.php(85): CodeIgniter\View\View->include('pembelian/modal...')
+#5 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pembelian/list', Array, true)
+#8 C:\xampp\htdocs\tokobuku\app\Controllers\Pembelian.php(27): view('pembelian/list', Array)
+#9 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pembelian->index()
+#10 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#11 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-05-15 08:57:27 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 08:57:30 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 08:57:30 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 08:57:31 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 08:57:44 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 08:57:45 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Penjualan->pembayaran()
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#2 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-15 20:34:26 --> Cannot declare class App\Controllers\Penjualan, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-15 20:38:12 --> Cannot declare class App\Controllers\Penjualan, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-15 20:39:13 --> Cannot declare class App\Controllers\Penjualan, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-15 20:39:17 --> Cannot declare class App\Controllers\Penjualan, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-15 20:39:46 --> Cannot declare class App\Controllers\Penjualan, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-15 20:40:44 --> Cannot declare class App\Controllers\Penjualan, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-15 20:40:59 --> Cannot declare class App\Controllers\Penjualan, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

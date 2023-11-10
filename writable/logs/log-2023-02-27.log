@@ -1,0 +1,6 @@
+CRITICAL - 2023-02-27 19:31:33 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokobuku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\tokobuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
